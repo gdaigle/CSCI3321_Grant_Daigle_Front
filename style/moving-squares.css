@@ -4,14 +4,15 @@
     height: 450px;
     text-align: center;
     margin: auto;
+    transition: all 6s;
 } 
 .even{
-    border: 1px #000000 dashed;
+    border: 1px #000000 solid;
     width: 50px;
     height: 50px;
     margin: 1px auto;
-    background-color: blue;
-    color: #ffffff;
+    background-color: #ffff00;
+    color: #000000;
     line-height: 50px;
     transition: all 6s;
 }
@@ -28,8 +29,12 @@
 }
 
 #squares-container:hover .odd{
-    transform: translateX(calc(25vw - 10px)) rotate(-1080deg) scale(.75);
+    transform: translateX(calc(20vw - 10px)) rotate(-1080deg) scale(.75);
 }
 #squares-container:hover .even{
-    transform: translateX(calc(-25vw + 45px)) rotate(1080deg) scale(2);
+    transform: translateX(calc(-20vw + 50px)) rotate(1080deg) scale(2);
 }
+#squares-container:hover{
+    border-radius: 25px;
+}
+
