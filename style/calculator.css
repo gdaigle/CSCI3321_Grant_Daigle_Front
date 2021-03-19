@@ -12,7 +12,7 @@
         'digit7 digit8 digit9 equal'
         'digit4 digit5 digit6 equal'
         'digit1 digit2 digit3 equal'
-        'clear clear digit0 equal';
+        'digit0 decimal clear clear';
 }
 #display{
     border-radius: 5px;
@@ -32,53 +32,71 @@
 }
 .plus{
     grid-area: addition;
+    background-color: aquamarine;
 }
 .minus{
     grid-area: subtraction;
+    background-color: aquamarine;
 }
 .multiply{
     grid-area: multiplication;
+    background-color: aquamarine;
 }
 .divide{
     grid-area: division;
+    background-color: aquamarine;
 }
 .digit-0{
     grid-area: digit0;
+    background-color: aqua;
 }
 .digit-1{
     grid-area: digit1;
+    background-color: aqua;
 }
 .digit-2{
     grid-area: digit2;
+    background-color: aqua;
 }
 .digit-3{
     grid-area: digit3;
+    background-color: aqua;
 }
 .digit-4{
     grid-area: digit4;
+    background-color: aqua;
 }
 .digit-5{
     grid-area: digit5;
+    background-color: aqua;
 }
 .digit-6{
     grid-area: digit6;
+    background-color: aqua;
 }
 .digit-7{
     grid-area: digit7;
+    background-color: aqua;
 }
 .digit-8{
     grid-area: digit8;
+    background-color: aqua;
 }
 .digit-9{
     grid-area: digit9;
+    background-color: aqua;
 }
 .equal-key{
     grid-area: equal;
-    height: 220px;
+    height: 160px;
     background-color: honeydew;
-    line-height: 220px;
+    line-height: 160px;
 }
 .clear{
     grid-area: clear;
     background-color: honeydew;
+}
+.decimal{
+    grid-area: decimal;
+    background-color: aqua;
 }
