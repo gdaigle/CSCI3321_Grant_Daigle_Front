@@ -1,0 +1,59 @@
+#game-board{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    grid-gap: 5px;
+    grid-template-areas: 
+        'spot1 spot2 spot3'
+        'spot4 spot5 spot6'
+        'spot7 spot8 spot9';
+}
+.game-buttons{
+    background-color: #61429d;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    color: #ffffff;
+}
+.spot1{
+    grid-area: spot1;
+    
+}
+.spot2{
+    grid-area: spot2;
+}
+.spot3{
+    grid-area: spot3;
+}
+.spot4{
+    grid-area: spot4;
+}
+.spot5{
+    grid-area: spot5;
+}
+.spot6{
+    grid-area: spot6;
+}
+.spot7{
+    grid-area: spot7;
+}
+.spot8{
+    grid-area: spot8;
+}
+.spot9{
+    grid-area: spot9;
+}
+.statusBoard{
+    font-size: 30px;
+    text-align: center;
+}
+.startButton{
+    font-size: 50px;
+    padding: auto;
+    margin-left: 700px;
+
+}
