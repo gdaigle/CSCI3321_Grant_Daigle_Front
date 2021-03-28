@@ -90,7 +90,7 @@ function startButtonClicked(){
 }
 function restartButton(){
     document.getElementById('sButton').style.display='block';
-    document.getElementById('sButton').innerHTML = "Restart";
+    document.getElementById('sButton').innerHTML = "Replay";
     document.getElementById('sButton').addEventListener("click", reset);
     buttonClick = true;
 }
