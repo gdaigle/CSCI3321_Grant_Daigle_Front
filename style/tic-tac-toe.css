@@ -17,7 +17,7 @@
     font-weight: bold;
     text-align: center;
     line-height: 150px;
-    color: #ffffff;
+    color: #61429d;
 }
 .spot1{
     grid-area: spot1;
@@ -55,5 +55,4 @@
     font-size: 50px;
     padding: auto;
     margin-left: 700px;
-
 }

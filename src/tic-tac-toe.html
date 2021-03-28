@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/tic-tac-toe.css">
-    <script src="../scripts/tic-tac-to.js"></script>
+    <script src="../scripts/tic-tac-toe.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -19,9 +19,9 @@
     <div class="game-buttons spot7" id="spot7" onclick="placeMarker('spot7')">7</div>
     <div class="game-buttons spot8" id="spot8" onclick="placeMarker('spot8')">8</div>
     <div class="game-buttons spot9" id="spot9" onclick="placeMarker('spot9')">9</div>
-    
 </div>
-<button class="startButton" id="sButton">Start</button>
-<div class="statusBoard" id="status">Player X Starts</div>
+<div class="statusBoard" id="status" style="display:none">Player X Starts</div>
+<button class="startButton" id="sButton" onclick="this.style.display='none'; document.getElementById('status').style.display='block'; butonClick = true">Start</button>
+
 </body>
 </html>
